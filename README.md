@@ -1,4 +1,4 @@
-# first-year-AI-homework
+# first-year-AI-homework/MATLAB
 This is the homework of AI class in the second semester
 Two questions.
 
