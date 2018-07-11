@@ -1,0 +1,19 @@
+function y = find_distance(value)
+	a1 = sum(sum(abs(value - [1,2,3;8,0,4;7,6,5])));
+	a2 = sum(sum(abs(value - [8,1,2;7,0,3;6,5,4])));
+	a3 = sum(sum(abs(value - [7,8,1;6,0,2;5,4,3])));
+	a4 = sum(sum(abs(value - [6,7,8;5,0,1;4,3,2])));
+	a5 = sum(sum(abs(value - [5,6,7;4,0,8;3,2,1])));
+	a6 = sum(sum(abs(value - [4,5,6;3,0,7;2,1,8])));
+	a7 = sum(sum(abs(value - [3,4,5;2,0,6;1,8,7])));
+	a8 = sum(sum(abs(value - [2,3,4;1,0,5;8,7,6])));
+	a9 = sum(sum(abs(value - [1,8,7;2,0,6;3,4,5])));
+	a10 = sum(sum(abs(value - [8,7,6;1,0,5;2,3,4])));
+	a11 = sum(sum(abs(value - [7,6,5;8,0,4;1,2,3])));
+	a12 = sum(sum(abs(value - [6,5,4;7,0,3;8,1,2])));
+	a13 = sum(sum(abs(value - [5,4,3;6,0,2;7,8,1])));
+	a14 = sum(sum(abs(value - [4,3,2;5,0,1;6,7,8])));
+	a15 = sum(sum(abs(value - [3,2,1;4,0,8;5,6,7])));
+	a16 = sum(sum(abs(value - [2,1,8;3,0,7;4,5,6])));
+	y = min([a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16]);
+end
